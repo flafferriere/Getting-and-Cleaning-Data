@@ -13,6 +13,7 @@ Here are the list of variables output from the run_analysis.R scripts
 
 The average of the mean and std of the following variables for each group, for each activity:
 
+
 tBodyAcc-XYZ
 tGravityAcc-XYZ
 tBodyAccJerk-XYZ

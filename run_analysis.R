@@ -1,4 +1,4 @@
-llibrary(dplyr)
+library(dplyr)
 
 # read all Data and assign to individual tables
 TestSubject<-read.table("./test/subject_test.txt", header = FALSE)
@@ -36,9 +36,4 @@ DataM$ActivityCode=NULL
 #Compute Stats and output
 stat = group_by(DataM, Subject, Activity) %>% summarise_each(funs(mean))
 write.table(stat, 'Stat.txt', row.names = F)
-
-
-
-
-
 

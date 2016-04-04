@@ -10,5 +10,5 @@ output: html_document
 This script will download a dataset from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  and output tidy statistics summarized per subject and per activity.
 
 # How to use ?
-Just run the script in the 'UCI HAR Dataset' directory. It will output a stat.txt file containing the output statistics
+Just run the script in the 'UCI HAR Dataset' directory. It will output a stat.txt file containing the output statistics.
 
